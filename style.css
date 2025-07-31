@@ -6,7 +6,7 @@
   --color-white: #f0f0f0;
   --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+ 
 * {
   margin: 0;
   padding: 0;
@@ -212,7 +212,7 @@ footer {
   color: #888;
   font-size: 0.9rem;
 }
-
+ 
 /* ===== Formulario de contacto ===== */
 .contenedor {
   width: 90%;
@@ -225,20 +225,20 @@ footer {
   color: var(--color-white);
   box-shadow: 0 0 10px rgba(0, 255, 204, 0.1);
 }
-
+ 
 .contenedor h1,
 .contenedor h2,
 .contenedor p {
   text-align: center;
   margin-bottom: 1rem;
 }
-
+ 
 label {
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
 }
-
+ 
 input,
 textarea {
   width: 100%;
@@ -250,12 +250,12 @@ textarea {
   font-size: 1rem;
   margin-bottom: 1rem;
 }
-
+ 
 input::placeholder,
 textarea::placeholder {
   color: #aaa;
 }
-
+ 
 button#enviar {
   padding: 0.75rem;
   background-color: var(--color-accent);
@@ -266,18 +266,18 @@ button#enviar {
   font-weight: bold;
   transition: 0.3s;
 }
-
+ 
 button#enviar:hover {
   background-color: var(--color-primary);
   color: black;
 }
-
+ 
 /* ===== Responsive ===== */
 @media (max-width: 768px) {
   .hero h1 {
     font-size: 2rem;
   }
-
+ 
   .stat {
     width: 100%;
   }
@@ -286,8 +286,6 @@ main {
   background-color: var(--color-bg);
   color: var(--color-white);
 }
-
-
 .container {
   max-width: 800px;
   margin: 2rem auto;
